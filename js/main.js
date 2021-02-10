@@ -154,7 +154,7 @@ $(window).on('load', function() {
 			form = $(this),
 			formdata = $(this).serialize(),
 			chack = $('#form-chack');
-			send_btn.text('Wait...');
+			send_btn.text('Message sent!');
 
 		function reset_form(){
 		 	$("#name").val('');
@@ -189,36 +189,6 @@ $(window).on('load', function() {
 		});
 		return false;
 	});
-
-
-	/*------------------
-	GOOGLE MAP
-	--------------------*/
-	function initialize() {
-		var myOptions = {
-			zoom: 15,
-			center: new google.maps.LatLng(-33.864083, 150.973713), //change the coordinates
-			mapTypeId: google.maps.MapTypeId.ROADMAP,
-			scrollwheel: false,
-			mapTypeControl: false,
-			zoomControl: false,
-			streetViewControl: false
-		};
-		var map = new google.maps.Map(document.getElementById("map"), myOptions);
-		var image = "img/marker.png";
-		var marker = new google.maps.Marker({
-			map: map,
-			animation: google.maps.Animation.DROP,
-			position: new google.maps.LatLng(-33.864083, 150.973713), //change the coordinates
-			icon: image
-		});
-		google.maps.event.addListener(marker, "click", function() {
-			infowindow.open(map, marker);
-		});
-	}
-	google.maps.event.addDomListener(window, 'load', initialize);
-
-
 
 
 
