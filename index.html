@@ -434,7 +434,7 @@
 			</div>
 		</div>
 		<div class="container pt100 pb100">
-			<p>Copyright © 2015-2021 | Powered By <a href="https://www.linkedin.com/in/marcoalmadaar/">Marco Almada</a></p>
+			<p>Copyright © 2015-<span id="year"></span> | Powered By <a href="https://www.linkedin.com/in/marcoalmadaar/">Marco Almada</a></p>
 		</div>
 	</footer>
 
@@ -450,6 +450,9 @@
 	<script src="js/particles.min.js"></script>
 	<script src="js/init-particles.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+		document.getElementById("year").innerHTML = new Date().getFullYear();
+	</script>
 	
 </body>
 </html>
