@@ -1132,3 +1132,7 @@ ul {
 .icon {
   -webkit-filter: invert(100%)
 }
+
+.foto {
+  margin: 0 20px 0 20px;
+}
