@@ -5,16 +5,6 @@
   <h1>Marco Almada's Portfolio</h1>
 </div>
 
-<p>Welcome to my portfolio! Here you can explore my projects and learn more about me. Welcome to my portfolio! Here, you'll find a curated collection of my projects showcasing my skills and experience as a web developer. Whether you're a potential employer, collaborator, or simply curious about my work, I invite you to explore these projects to get a glimpse of what I can offer.
-
-Each project has been carefully crafted to demonstrate my proficiency in various technologies and problem-solving abilities. From web applications to websites, you'll find a diverse range of projects that highlight my adaptability and creativity in addressing different challenges.
-
-Beyond my projects, this portfolio also offers insights into my background, education, and achievements. Learn about my journey through the Microverse bootcamp, where I honed my coding skills and collaborated with peers from around the world. Additionally, discover how I embarked on the Zero to Mastery bootcamp from Udemy, further enriching my knowledge and expertise in web development.
-
-As you navigate through my portfolio, I hope you gain a better understanding of my passion for coding and my commitment to delivering high-quality solutions. Feel free to reach out to me if you have any questions, feedback, or potential opportunities. Thank you for visiting, and I look forward to connecting with you!
-</p>
-
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -31,6 +21,14 @@ As you navigate through my portfolio, I hope you gain a better understanding of 
 ## 📖 About Me <a name="about-me"></a>
 
 I'm Marco Almada, a passionate web developer with a strong background in building interactive and dynamic web applications. With a focus on user experience and clean, efficient code, I strive to create impactful digital experiences that resonate with users.
+
+Here you can explore my projects and learn more about me. Welcome to my portfolio! Here, you'll find a curated collection of my projects showcasing my skills and experience as a web developer. Whether you're a potential employer, collaborator, or simply curious about my work, I invite you to explore these projects to get a glimpse of what I can offer.
+
+Each project has been carefully crafted to demonstrate my proficiency in various technologies and problem-solving abilities. From web applications to websites, you'll find a diverse range of projects that highlight my adaptability and creativity in addressing different challenges.
+
+Beyond my projects, this portfolio also offers insights into my background, education, and achievements. Learn about my journey through the Microverse bootcamp, where I honed my coding skills and collaborated with peers from around the world. Additionally, discover how I embarked on the Zero to Mastery bootcamp from Udemy, further enriching my knowledge and expertise in web development.
+
+As you navigate through my portfolio, I hope you gain a better understanding of my passion for coding and my commitment to delivering high-quality solutions. Feel free to reach out to me if you have any questions, feedback, or potential opportunities. Thank you for visiting, and I look forward to connecting with you!
 
 <!-- PROJECTS -->
 
