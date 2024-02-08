@@ -3,7 +3,7 @@
 <div align="center">
 
   <h1>Marco Almada's Portfolio</h1>
-  <img src="soyMarco" alt="Portfolio Logo" width="140" height="auto" />
+  <img src="soyMarco.png" alt="Portfolio Logo" width="140" height="auto" />
   <p>Welcome to my portfolio! Here you can explore my projects and learn more about me.</p>
 
 </div>
