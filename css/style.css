@@ -231,16 +231,30 @@ ul {
 }
 
 /*Navigation*/
-.top-element .container {
-  position: relative;
+
+.menu-container {
+  padding: 0 10px; /* Agrega 10px de espacio a cada lado */
 }
+
+.top-element {
+  position: fixed; /* Cambiar de sticky a fixed */
+  width: 100%;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  background-color: #8b8b8b; /* Cambia el color de fondo según sea necesario */
+  transition: top 0.3s; /* Agregar una transición suave para el cambio de posición */
+}
+
+.top-element.active {
+  top: 0; /* Muestra el elemento cuando está activo */
+}
+
 .nav-switch {
   position: absolute;
   width: 50px;
   height: 50px;
   left: 0;
   top: 50px;
-  background: #fff;
+  background: #8b8b8b;
   z-index: 998;
   cursor: pointer;
   padding: 17px 7px 0px;
@@ -311,7 +325,7 @@ ul {
   left: 0;
   top: 50px;
   height: 50px;
-  background: #fff;
+  background: #333;
   z-index: 220;
   padding-right: 20px;
   padding-left: 55px;
@@ -328,7 +342,7 @@ ul {
 
 .mainmenu .menu-list li a {
   display: inline-block;
-  color: #333;
+  color: #fff;
   padding: 15px 10px;
   margin-left: -80px;
   opacity: 0;

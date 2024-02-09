@@ -1,5 +1,18 @@
 //@ Firework JS 
 
+var prevScrollpos = window.pageYOffset;
+
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.querySelector('.top-element').classList.add('active'); // Agrega la clase 'active' al hacer scroll hacia arriba
+  } else {
+    document.querySelector('.top-element').classList.remove('active'); // Quita la clase 'active' al hacer scroll hacia abajo
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
 'use strict';
 $(window).on('load', function() { 
 	/*------------------
