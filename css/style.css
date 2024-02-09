@@ -369,7 +369,7 @@ ul {
   background: #fff;
   height: 40px;
   z-index: 20;
-  padding: 0 20px;
+  padding: 0 5px;
   border-radius: 30px;
 }
 
@@ -1083,7 +1083,7 @@ ul {
     font-size: 28px !important;
   }
   .social {
-    right: 15px;
+    right: 20px;
   }
   .nav-switch {
     left: 15px;
