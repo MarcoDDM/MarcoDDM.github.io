@@ -323,7 +323,7 @@ ul {
 .mainmenu {
   position: absolute;
   left: 0;
-  top: 50px;
+  top: 22px;
   height: 50px;
   background: #333;
   z-index: 220;
@@ -352,7 +352,7 @@ ul {
 
 .mainmenu.active {
   opacity: 1;
-  left: 0;
+  left: 5px;
 }
 
 .mainmenu.active .menu-list li a {
@@ -1159,16 +1159,11 @@ ul {
 
 .spread-images li {
   display: inline-block;
-}
-
-.spread-images i {
-  font-size: 40px;
-  margin: 10px;
   transition: transform 0.3s ease;
 }
 
 .spread-images li:hover i {
-  animation: wave 0.5s infinite linear;
+  transform: scale(1.2); /* Ajusta el tamaño que desees al hacer hover */
 }
 
 @keyframes wave {
