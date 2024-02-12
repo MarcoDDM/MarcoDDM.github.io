@@ -252,8 +252,8 @@ ul {
   position: absolute;
   width: 50px;
   height: 50px;
-  left: 0;
-  top: 50px;
+  left: 6px;
+  top: 22px;
   background: #8b8b8b;
   z-index: 998;
   cursor: pointer;
@@ -364,8 +364,8 @@ ul {
 
 .social {
   position: absolute;
-  top: 60px;
-  right: 0;
+  top: 22px;
+  right: 20px;
   background: #fff;
   height: 40px;
   z-index: 20;
@@ -1149,4 +1149,36 @@ ul {
 
 .foto {
   margin: 0 20px 0 20px;
+}
+
+.spread-images {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.spread-images li {
+  display: inline-block;
+}
+
+.spread-images i {
+  font-size: 40px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.spread-images li:hover i {
+  animation: wave 0.5s infinite linear;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
